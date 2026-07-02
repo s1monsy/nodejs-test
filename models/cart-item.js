@@ -1,6 +1,6 @@
 const Sequalize = require("sequalize");
 
-const Sequalize = require("../util/database");
+const sequalize = require("../util/database");
 
 const CartItem = sequelize.define("cartItem", {
   id: {
